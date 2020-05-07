@@ -1,6 +1,6 @@
 RSpec.describe Windows31jPunctuation do
-  SRC = "-‑‒–⁃﹣−－─━_＿¯‾￣—―ー~∼∾〜〰～…⋯·•∙⋅・･".freeze
-  REPLACED = "------－－─━_＿￣~￣――ー~~~～～～……････・･".freeze
+  SRC = "‑‒–⁃﹣−¯‾—∼∾〜〰⋯·•∙⋅".freeze
+  REPLACED = "-----－￣~―~~～～…････".freeze
 
   it "has a version number" do
     expect(Windows31jPunctuation::VERSION).not_to be nil
