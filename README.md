@@ -11,7 +11,7 @@ Conversion table is based on https://y-kawaz.hatenadiary.org/entry/20101112/1289
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'windows_31j_punctuation'
+gem "windows_31j_punctuation", git: "https://github.com/socioart/windows_31j_punctuation", tag: "v0.1.0"
 ```
 
 And then execute:
