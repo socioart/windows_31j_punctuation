@@ -1,8 +1,10 @@
 # Windows31jPunctuation
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/windows_31j_punctuation`. To experiment with that code, run `bin/console` for an interactive prompt.
+Unicode has a lot of visually confusable punctutaions (https://www.unicode.org/reports/tr39/#Confusable_Detection).
 
-TODO: Delete this and the text above, and describe your gem
+This gem replace some punctuations to Windows-31J compatible characters.
+
+Conversion table is based on https://y-kawaz.hatenadiary.org/entry/20101112/1289554290 .
 
 ## Installation
 
@@ -22,7 +24,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "windows_31j_punctuation"
+
+Windows31jPunctuation.replace("‑‒–") # "---" (Replace NON-BREAKING HYPHEN, FIGURE DASH, EN DASH to HYPHEN MINUS)
+```
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/labocho/windows_31j_punctuation.
+Bug reports and pull requests are welcome on GitHub at https://github.com/socioart/windows_31j_punctuation.
 
 
 ## License
