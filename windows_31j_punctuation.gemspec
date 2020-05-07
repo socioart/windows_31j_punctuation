@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["labocho"]
   spec.email         = ["labocho@penguinlab.jp"]
 
-  spec.summary       = "Unify visually confusable Unicode punctuations to encode Windows-31J"
-  spec.description   = "Unify visually confusable Unicode punctuations to encode Windows-31J"
+  spec.summary       = "Replace visually confusable Unicode punctuations to Windows-31J compatible"
+  spec.description   = "Replace visually confusable Unicode punctuations to Windows-31J compatible"
   spec.homepage      = "https://github.com/socioart/windows_31j_punctuation"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
